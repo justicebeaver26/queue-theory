@@ -1,7 +1,7 @@
 # queue-theory
 This is my project on Queue Theory.
 
-# 🚦 Traffic Queuing Analysis – Auckland Southern Motorway On-Ramp  
+# Traffic Queuing Analysis – Auckland Southern Motorway On-Ramp  
 
 ## 1. Problem / Purpose  
 Traffic congestion on the Auckland Southern Motorway is a persistent issue, particularly at on-ramps during peak hours.  
@@ -28,7 +28,7 @@ This project applies **queuing theory** to:
   - **Exponential service times**  
   - **FIFO discipline**  
 - Simplified model: **M/M/1 queue** with infinite capacity  
-- Limitations: snapshot observation, ignored variability, simplified ramp metering  
+- Limitations: snapshot observation, ignored variability, simplified ramp metering
 
 ---
 
@@ -63,10 +63,16 @@ This project applies **queuing theory** to:
 
 ---
 
-## 📊 Queue Model Diagram  
+## Simulation Code
+The code provided is the SAS code for the simulation of the traffic problem, including a comparison between the Public Transport Solution and the 3-Lane Solution. To run the file, please make sure `Simulation.sas` is uploaded to SAS Studio.
+
+---
+
+## Queue Model Diagram  
 
 ```mermaid
 flowchart LR
     A[Arrivals λ] -->|Poisson Process| Q[Queue]
     Q -->|Service μ| S[Traffic Signal / Server]
     S --> D[Departure]
+
