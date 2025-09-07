@@ -64,7 +64,8 @@ This project applies **queuing theory** to:
 ---
 
 ## Simulation Code
-The code provided is the SAS code for the simulation of the traffic problem, including a comparison between the Public Transport Solution and the 3-Lane Solution. To run the file, please make sure `Simulation.sas` is uploaded to SAS Studio.
+The code provided is the SAS code for the simulation of the traffic problem, including a comparison between the Service Lane Solution and the 3-lane Solution, and the Public Transport Solution and the 3-Lane Solution. To run the file, please make sure `Simulation.sas` is uploaded to SAS Studio.
+
 
 ---
 
